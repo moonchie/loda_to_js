@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/Raphabel/training-js#readme",
   "dependencies": {
-    "diff": "^3.5.0",
     "lodash": "^4.17.5"
   }
 }
