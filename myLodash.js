@@ -83,6 +83,9 @@ MyLodash.flattenDeep = function (array) {
     //return _.flattenDeep(array);
 }
 
+/**
+ * This method is like _.defaults except that it recursively assigns default properties.
+ */
 MyLodash.defaultsDeep = function (values, extra) {
     return values;
     //return _.defaultsDeep(values, extra);
