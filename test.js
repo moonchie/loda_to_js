@@ -14,10 +14,10 @@ Test.run = function (tests, callback) {
         var call = test.call;
         // Tmp values for expected
         var valuesExpected = _.cloneDeep(test.values);
-        var extraExpected = _.cloneDeep(test.extra);
+        var extraExpected = test.extra;
         // Tmp values for results
         var valuesResults = _.cloneDeep(test.values);
-        var extraResults = _.cloneDeep(test.extra);
+        var extraResults = test.extra;
 
         if (MyLodash[call]) {
             var expected = _[call](valuesExpected, extraExpected);
